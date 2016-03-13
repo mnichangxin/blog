@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # 李昶昕的个人博客
 #Li Changxin's personal blog
@@ -14,3 +15,7 @@ This site based on Jekyll template development and customization, using the stat
 关于代码的建议，欢迎积极评论，也欢迎参与到项目中来，我也会认真对待。
 
 Comments on the code, welcomed the positive comments, but also welcome to participate in the project, I will seriously.
+=======
+# 个人博客
+
+>>>>>>> e59e99121ace50b90b473a441f0f338192d9a371
