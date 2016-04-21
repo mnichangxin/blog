@@ -12,7 +12,6 @@ paginate_path: ":num"
 baseurl: ""
 
 
-
 title: "LiChangxin"
 email: "mnichangxin@163.com"
 description: "Developer"
@@ -21,9 +20,8 @@ swiftype_searchId: "ncwR9a8S9CTx2q9SgsJm"
 disqus_shortname: "rainyalley"
 
 
-
-url: "http://blog.rainyalley.com"
-imgrepo: "http://blog.rainyalley.com/static/img"
+#url: "http://blog.rainyalley.com"
+#imgrepo: "http://blog.rainyalley.com/static/img"
 
 
 #url: "http://127.0.0.1:4000"
