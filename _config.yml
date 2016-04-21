@@ -1,10 +1,10 @@
 permalink: /:year-:month-:day/:title/
 
-highlighter: pygments
+#highlighter: pygments
 markdown: kramdown
-kramdown:
-  input:  GFM
-  syntax_highlighter: pygments
+#kramdown:
+  #input:  GFM
+  #syntax_highlighter: pygments
 
 
 paginate: 10
