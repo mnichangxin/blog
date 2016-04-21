@@ -11,7 +11,6 @@ paginate: 10
 paginate_path: ":num"
 baseurl: ""
 
-
 title: "LiChangxin's Blog"
 email: "mnichangxin@163.com"
 description: "Developer"

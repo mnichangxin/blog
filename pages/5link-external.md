@@ -5,6 +5,12 @@ permalink: /link/
 icon: octicon-link-external
 ---
 
-###[东方星痕](http://www.lxy520.net/)
+[sevenskey](http://sevenskey.xyz)
 
-###[Cass](http://cassite.net/)
+[vvwall](http://vvwall.com/)
+
+[leifhome](http://blog.csdn.net/leiflyy)
+
+[isunday](http://isunday.top/links/)
+
+[gaohaoyang](http://gaohaoyang.github.io)
