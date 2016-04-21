@@ -2,6 +2,7 @@
 layout: post
 title: "Github之SSH连接配置"
 categories: GitHub
+tags: github
 ---
 
 ## 配置

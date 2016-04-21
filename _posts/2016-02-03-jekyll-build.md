@@ -2,7 +2,7 @@
 layout: post
 title: "jekyll静态博客搭建"
 category: GitHub
-archive: "blog"
+tags: jekyll blog
 ---
 
 ## 前言
