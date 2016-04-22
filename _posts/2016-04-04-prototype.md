@@ -2,6 +2,7 @@
 layout: post
 title: "JS原型链"
 categories: JavaScript
+tags: JS高级特性
 ---
 
 ## 前言
@@ -95,7 +96,7 @@ Person.prototype = {
 
 但是，有一个问题要注意，书上是这么说的：
 
-当一个函数被创建时，它的`prototype`属性也被创建，且该原型对象的`constructor`
+> 当一个函数被创建时，它的`prototype`属性也被创建，且该原型对象的`constructor`
 指向该函数。当使用对象字面形式改写原型对象时，其`constructor`
 属性将被置为泛用对象`Object`。
 

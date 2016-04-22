@@ -2,6 +2,7 @@
 layout: post
 title: "Git常用操作命令(随时更新)"
 categories: Git
+tags: 版本库
 ---
 
 ## 本地版本库管理

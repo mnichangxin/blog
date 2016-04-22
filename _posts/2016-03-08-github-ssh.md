@@ -2,7 +2,7 @@
 layout: post
 title: "Github之SSH连接配置"
 categories: GitHub
-tags: github
+tags: 配置
 ---
 
 ## 配置
@@ -24,7 +24,7 @@ tags: github
 
 2. 生成一个新的密钥 
     
-    ```ruby
+    ```
     $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
     ```
 
@@ -37,7 +37,7 @@ tags: github
 
 3. 添加SSH代理
     
-    ```ruby
+    ```
     $ eval "$(ssh-agent -s)"
 
     $ ssh-add ~/.ssh/id_rsa
@@ -47,7 +47,7 @@ tags: github
 
 4. 复制密钥到Github
     
-    ```ruby
+    ```
     $ clip < ~/.ssh/id_rsa.pub
     ```
 

@@ -2,7 +2,7 @@
 layout: post
 title: "jekyll静态博客搭建"
 category: GitHub
-tags: jekyll blog
+tags: jekyll 博客
 ---
 
 ## 前言
@@ -52,7 +52,7 @@ tags: jekyll blog
 
     最后，执行如下命令安装
 
-    ```ruby
+    ```
     $ ruby dk.rb install
     ```
 
@@ -64,7 +64,7 @@ tags: jekyll blog
 
     `gem`直接执行安装:
 
-    ```ruby
+    ```
     $ gem install jekyll
     ```
 
@@ -72,19 +72,19 @@ tags: jekyll blog
     
     在 **项目根目录**新建一个叫`Gemfile`的文件，没有后缀，编辑保存以下内容：
    
-    ```ruby
+    ```
     $ source 'https://ruby.taobao.org/'
     $ gem 'github-pages'
     ```
     然后一步安装：
 
-    ```ruby
+    ```
     $ gem install bundle
     ```
 
     命令会根据当前目录下的`Gemfile`，安装所需要的所有软件。这一步所安装的东西，可以说跟github本身的环境是完全一致的，所以可以确保本地如果没有错误，上传后也不会有错误。而且可以在将来使用下面命令，随时更新环境，十分方便。
 
-    ```ruby
+    ```
     $ bundle update
     ```
 
