@@ -33,13 +33,14 @@ tags: 配置
     Enter passphrase (empty for no passphrase): [Type a passphrase]
 
     Enter same passphrase again: [Type passphrase again]
-   
 
 3. 添加SSH代理
     
     ```
     $ eval "$(ssh-agent -s)"
+    ```
 
+    ```
     $ ssh-add ~/.ssh/id_rsa
     ```
 
