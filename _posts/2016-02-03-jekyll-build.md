@@ -44,7 +44,7 @@ tags: jekyll blog
 
     下载`DevKit`,版本要与`ruby`版本一致。下载下来后解压到任意目录，cmd进入此目录，运行如下命令
     
-    ```ruby
+    ```c
     $ ruby dk.rb init
     ```
 
