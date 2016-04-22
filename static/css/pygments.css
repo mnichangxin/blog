@@ -1,4 +1,4 @@
-.hll { background-color: #404040 }
+.highlight { background-color: #404040 }
 .c { color: #999999; font-style: italic } /* Comment */
 .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .esc { color: #d0d0d0 } /* Escape */
@@ -71,3 +71,4 @@
 .vg { color: #40ffff } /* Name.Variable.Global */
 .vi { color: #40ffff } /* Name.Variable.Instance */
 .il { color: #3677a9 } /* Literal.Number.Integer.Long */
+.highlight .lineno{ color: rgba(0,0,0,0.3); border-right: solid 1px rgba(0,0,0,0.3); padding-right: 5px;}
