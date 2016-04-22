@@ -9,7 +9,7 @@ tags: github
 
 1. 检查密钥是否存在
 
-    ```ruby
+    ```
     $ ls -al ~/.ssh
     ```
 
@@ -26,13 +26,14 @@ tags: github
     
     ```ruby
     $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+    ```
 
     Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
 
     Enter passphrase (empty for no passphrase): [Type a passphrase]
 
     Enter same passphrase again: [Type passphrase again]
-    ```
+   
 
 3. 添加SSH代理
     

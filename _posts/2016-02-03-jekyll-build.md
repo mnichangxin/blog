@@ -12,7 +12,7 @@ tags: jekyll blog
 
 ## 关于github-page
 
-[GitHub-page](https://pages.github.com/) 是一个免费的静态网站托管平台，由github提供，它具有以下特点：是一个免费的静态网站托管平台，由github提供，它具有以下特点：
+> [GitHub-page](https://pages.github.com/) 是一个免费的静态网站托管平台，由github提供，它具有以下特点：是一个免费的静态网站托管平台，由github提供，它具有以下特点：
 1. 免空间费，免流量费
 2. 具有项目主页和个人主页两种选择
 3. 支持页面生成，可以使用`jekyll`来布局页面，使用`markdown`来书写正文
@@ -44,7 +44,7 @@ tags: jekyll blog
 
     下载`DevKit`,版本要与`ruby`版本一致。下载下来后解压到任意目录，cmd进入此目录，运行如下命令
     
-    ```c
+    ``` 
     $ ruby dk.rb init
     ```
 

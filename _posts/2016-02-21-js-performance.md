@@ -5,7 +5,7 @@ categories: JavaScript
 tags: performation
 ---
 
-随着 Web2.0 技术的不断推广，越来越多的应用使用JavaScript技术在客户端进行处理，从而使JavaScript在浏览器中的性能成为开发者所面临的最重要的可用性问题。而这个问题又因JavaScript 的阻塞特性变的复杂，也就是说当浏览器在执行JavaScript代码时，不能同时做其他任何事情。本文详细介绍了如何正确的加载和执行JavaScript代码，从而提高其在浏览器中的性能。
+> 随着 Web2.0 技术的不断推广，越来越多的应用使用JavaScript技术在客户端进行处理，从而使JavaScript在浏览器中的性能成为开发者所面临的最重要的可用性问题。而这个问题又因JavaScript 的阻塞特性变的复杂，也就是说当浏览器在执行JavaScript代码时，不能同时做其他任何事情。本文详细介绍了如何正确的加载和执行JavaScript代码，从而提高其在浏览器中的性能。
 
 ## 概览
 
