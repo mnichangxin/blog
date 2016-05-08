@@ -25,5 +25,5 @@ imgrepo: "http://mnichangxin.github.io/blog/static/img"
 
 #url: "http://127.0.0.1:4000"
 #imgrepo: "http://127.0.0.1:4000/static/img"
-#gems: [jekyll-paginate]
+gems: [jekyll-paginate]
 
