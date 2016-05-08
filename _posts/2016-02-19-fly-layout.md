@@ -2,7 +2,7 @@
 layout: post
 title: "圣杯布局和双飞翼布局"
 categories: CSS
-tags: layout
+tags: 布局
 ---
 
 ## 前言
