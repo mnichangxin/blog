@@ -7,8 +7,8 @@ kramdown:
   syntax_highlighter: pygments
 
 
-paginate: 10
-paginate_path: "blog/page:num"
+paginate: 11
+paginate_path: ":num"
 baseurl: ""
 
 title: "LiChangxin's Blog"
