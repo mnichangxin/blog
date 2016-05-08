@@ -22,6 +22,7 @@ disqus_shortname: "mnichangxin"
 url: "http://mnichangxin.github.io/blog"
 imgrepo: "http://mnichangxin.github.io/blog/static/img"
 
+timezone: CN
 
 #url: "http://127.0.0.1:4000"
 #imgrepo: "http://127.0.0.1:4000/static/img"
