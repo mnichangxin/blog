@@ -7,7 +7,7 @@ kramdown:
   syntax_highlighter: pygments
 
 
-paginate: 10
+paginate: 12
 paginate_path: ":num"
 baseurl: ""
 
