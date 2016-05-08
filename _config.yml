@@ -8,7 +8,7 @@ kramdown:
 
 
 paginate: 5
-#paginate_path: ":num"
+paginate_path: ":num"
 baseurl: ""
 
 title: "LiChangxin's Blog"
