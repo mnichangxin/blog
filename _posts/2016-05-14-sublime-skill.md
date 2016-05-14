@@ -1,6 +1,8 @@
 ---
+layout: post
 title: "sublime常用快捷键和插件"
-
+categories: Sublime
+tags: 开发工具
 ---
 
 无插件不神器，`sublime`作为当今前端开发者的必备工具，掌握其中的技巧可以提高效率，"工欲善其事，必先利其器"嘛！
