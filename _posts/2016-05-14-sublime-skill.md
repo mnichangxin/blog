@@ -93,7 +93,7 @@ SublimeText不仅仅是能够查看和编辑 Markdown 文件，但它会视它�
 
 * [SublimeLinter](https://github.com/SublimeLinter)
 
-用于高亮提示用户编写的代码中存在的不规范和错误的写法，支持 `JavaScript`、`CSS`、`HTML`、`Java`、`PHP`、`Python`、`Ruby` 等十多种开发语言。这篇文章介绍如何在 ``Windows` 中配置 `SublimeLinter` 进行 `JS` & `CSS` 校验: [借助 SublimeLinter 编写高质量的 JavaScript & CSS 代码](http://www.cnblogs.com/lhb25/archive/2013/05/02/sublimelinter-for-js-css-coding.html)
+用于高亮提示用户编写的代码中存在的不规范和错误的写法，支持 `JavaScript`、`CSS`、`HTML`、`Java`、`PHP`、`Python`、`Ruby` 等十多种开发语言。这篇文章介绍如何在 ``Windows` 中配置 `SublimeLinter` 进行 `JS` & `CSS` 校验: [借助SublimeLinter编写高质量的JavaScript&CSS代码](http://www.cnblogs.com/lhb25/archive/2013/05/02/sublimelinter-for-js-css-coding.html)
 
 * [CSScomb](https://github.com/csscomb/CSScomb-for-Sublime)
 
