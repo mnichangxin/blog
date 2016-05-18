@@ -2,7 +2,7 @@
 layout: post
 title: "JS原型链"
 categories: JavaScript
-tags: JS高级特性
+tags: JS高级特性 原型
 ---
 
 ## 前言
