@@ -50,7 +50,7 @@ JS是没有块级作用域的，但有执行环境。当创建第一个 `foo` �
 
 ![](http://7xr2ek.com1.z0.glb.clouddn.com/blog/image/closures1.png)
 
-这就好解释为什么第一个输出为 "definded" 原因了：首先在函数的执行环境中寻找，找到了 `foo` 的标识符，然后就不继找下去了，`foo` 当然是 `undefined` 
+这就好解释为什么第一个输出为 `undefined` 原因了：首先在函数的执行环境中寻找，找到了 `foo` 的标识符，然后就不继找下去了，`foo` 当然是 `undefined` 
 
 下面看闭包：
 
