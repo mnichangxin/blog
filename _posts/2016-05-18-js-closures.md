@@ -37,7 +37,8 @@ tags: JS高级特性 闭包 ES5
 
         console.log(foo); 
     }
-
+    
+    f();
     console.log(foo); 
     console.log(foo1);
 ```
