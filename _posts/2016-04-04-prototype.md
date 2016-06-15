@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "JS原型链"
+title: "JavaScript原型"
 categories: JavaScript
 tags: JS高级特性 原型
 ---
