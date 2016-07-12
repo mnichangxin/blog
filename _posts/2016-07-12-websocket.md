@@ -147,7 +147,7 @@ Property values:
 3. CLOSING (2)
 4. CLOSED (3)
 
-更多关于 `API` 的详细请见 ![Websocket API](https://msdn.microsoft.com/library/hh673567)
+更多关于 `API` 的详细请见 ![](https://msdn.microsoft.com/library/hh673567)
 
 
 
