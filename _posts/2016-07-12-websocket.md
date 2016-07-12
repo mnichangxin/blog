@@ -5,6 +5,8 @@ category: Network
 tag: Websocket Comet
 ---
 
+通常的轮询和流都是基于单向的请求连接， `HTML5` 的 `Websocket` 实现了数据的双向传递。下面是关于这方面的摘要：
+
 # 实现Websocket
 
 如果你按照下列步骤进行操作，则实现此数据交换新技术将非常简单：
