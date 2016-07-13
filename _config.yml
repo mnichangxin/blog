@@ -11,9 +11,9 @@ paginate: 8
 paginate_path: ":num"
 baseurl: ""
 
-title: "LiChangxin's Blog"
+title: "Changxin Li"
 email: "mnichangxin@163.com"
-description: "Developer"
+description: ""
 github_username:  "mnichangxin"
 swiftype_searchId: "WE7AxpzxgXe3ywETzT3N"
 disqus_shortname: "mnichangxin"
