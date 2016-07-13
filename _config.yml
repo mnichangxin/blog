@@ -9,7 +9,7 @@ kramdown:
 
 paginate: 8
 paginate_path: ":num"
-baseurl: ""
+baseurl: "http://mnichangxin.github.io"
 
 title: "LiChangxin's Blog"
 email: "mnichangxin@163.com"
@@ -22,7 +22,5 @@ disqus_shortname: "mnichangxin"
 url: "http://mnichangxin.github.io/blog"
 imgrepo: "http://mnichangxin.github.io/blog/static/img"
 
-#url: "http://127.0.0.1:4000"
-#imgrepo: "http://127.0.0.1:4000/static/img"
 gems: [jekyll-paginate]
 
