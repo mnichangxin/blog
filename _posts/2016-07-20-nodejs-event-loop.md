@@ -7,8 +7,7 @@ tags: Javascript Event
 
 ## 事件
 
-`Node.js` 所有的异步 `I/O` 操作在完成时都会发送一个事件到事件队列。在开发者看来，事
-件由 `EventEmitter` 对象提供。下面我们用一个简单的例子说明 `EventEmitter` 的用法：
+`Node.js` 所有的异步 `I/O` 操作在完成时都会发送一个事件到事件队列。在开发者看来，事件由 `EventEmitter` 对象提供。下面我们用一个简单的例子说明 `EventEmitter` 的用法：
 
 ```js
 	//event.js
