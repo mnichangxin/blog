@@ -1,0 +1,26 @@
+permalink: /:year-:month-:day/:title/
+
+highlight: pygments
+markdown: kramdown
+kramdown:
+  input:  GFM
+  syntax_highlighter: pygments
+
+
+paginate: 8
+paginate_path: ":num"
+baseurl: ""
+
+title: "Changxin Li"
+email: "mnichangxin@163.com"
+description: ""
+github_username:  "mnichangxin"
+swiftype_searchId: "WE7AxpzxgXe3ywETzT3N"
+disqus_shortname: "mnichangxin"
+
+
+url: "http://mnichangxin.github.io/blog"
+imgrepo: "http://mnichangxin.github.io/blog/static/img"
+
+gems: [jekyll-paginate]
+
