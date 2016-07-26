@@ -121,13 +121,13 @@ tags: npm package json
 因此，像下面这样的写法可以采用简写。
 
 ```json
-    scripts: {  
-      start: './node_modules/someTool/someTool.js build'
+    "scripts": {  
+      "start": "./node_modules/someTool/someTool.js build"
     }
 
     // 简写为
-    scripts: {  
-      start: 'someTool build'
+    "scripts": {  
+      "start": "someTool build"
     }
 ```
 
