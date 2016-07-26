@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Npm package.json文件（摘自@阮一峰的教程）"
+title: "Npm package.json文件"
 categories: Node.js
 tags: npm package json
 ---
@@ -161,7 +161,7 @@ tags: npm package json
 
 ## 参考资料
 
-[package.json文件](http://javascript.ruanyifeng.com/nodejs/packagejson.html)
+[package.json文件@阮一峰](http://javascript.ruanyifeng.com/nodejs/packagejson.html)
 
 [npm官方文档](https://docs.npmjs.com/getting-started/using-a-package.json)
 

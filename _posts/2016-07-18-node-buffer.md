@@ -145,3 +145,9 @@ console.log(b.toString()); //aaaaa
     var len = buf.write('\u00bd + \u00bc = \u00be', 0);
     console.log(`${len} bytes: ${buf.toString('utf8', 0, len)}`); //12 bytes: ½ + ¼ = ¾
 ```
+
+## 参考资料
+
+[Buffer对象@阮一峰](http://javascript.ruanyifeng.com/nodejs/buffer.html)
+
+[Node.js API文档](https://nodejs.org/dist/latest-v6.x/docs/api/buffer.html)

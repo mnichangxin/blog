@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Node.js--Stream模块（摘自@阮一峰的教程）"
+title: "Node.js--Stream模块"
 categories: Node.js
 tags: Javascript IO流
 ---
