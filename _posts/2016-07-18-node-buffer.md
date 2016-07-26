@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Node.js Buffer模块"
+title: "Node.js--Buffer模块"
 categories: Node.js
-tags: Javascript IO
+tags: Javascript IO流
 ---
 
 这里介绍的只是我觉得 `Node.js` 里文件操作几个有用的 `API` ，详细内容得先从官方文档看起
