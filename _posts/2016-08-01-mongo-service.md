@@ -67,4 +67,4 @@ tags: MongoDB Sql
 
 ## 参考资料
 
-![MongoDB官方文档](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
+[MongoDB官方文档](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
