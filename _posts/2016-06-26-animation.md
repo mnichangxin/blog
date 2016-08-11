@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CSS3动画详解
+title: 深入浅出CSS3动画
 category: CSS
 tag: 动画 
 ---
