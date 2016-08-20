@@ -5,11 +5,11 @@ categories: CSS
 tags: 移动Web 
 ---
 
-> 文章系转载，原文地址请见[网页链接](https://github.com/riskers/blog/issues/18), 作者的第一篇 [文章](https://github.com/riskers/blog/issues/17)
+> 文章系转载，原文地址请见[网页链接](https://github.com/riskers/blog/issues/18), 作者的另一篇 [文章](https://github.com/riskers/blog/issues/17)
 
 > 推荐一篇文章：`MobileWeb` 适配总结，里面说到的三种布局方法已经说的很详细，还分别做了demo，我就不做了，这里说说三种方案的原理以及我使用中的感受，希望各为互补，大家理解是最重要的。
 
-之前做过PC页面的人聊的最多的就是『兼容』，这是因为浏览器之间的差异引起的，不再多说。而移动端是基本没有『兼容』的问题的，全是CSS3，简直不要太开心。可是『适配』问题随之而来。
+之前做过 `PC` 页面的人聊的最多的就是『兼容』，这是因为浏览器之间的差异引起的，不再多说。而移动端是基本没有『兼容』的问题的，全是 `CSS3` ，简直不要太开心。可是『适配』问题随之而来。
 
 什么是『适配』？做PC页面的时候，我们按照设计图的尺寸来就好，这个侧边栏200px，那个按钮50px的。可是，当我们开始做移动端页面的时候，设计师给了一份宽度为640px的设计图。那么，我们把这份设计图实现在各个手机上的过程就是『适配』。
 
@@ -69,15 +69,15 @@ tags: 移动Web
 
 [demo](http://www.meow.re/demo/screen-adaptation-in-mobileweb/app-rem.html)
 
-这也是 [淘宝](https://m.taobao.com/) 使用的方案，根据屏幕宽度设定 rem 值，需要适配的元素都使用 rem 为单位，不需要适配的元素还是使用 px 为单位。
+这也是 [淘宝](https://m.taobao.com/) 使用的方案，根据屏幕宽度设定 `rem` 值，需要适配的元素都使用 `rem` 为单位，不需要适配的元素还是使用 `px` 为单位。
 
 具体使用方法见 [使用Flexible实现手淘H5页面的终端适配](https://github.com/amfe/article/issues/17)
 
-上文提供了sass和postcss的px2rem转换方法，我这里给出less的px2rem。因为less不支持函数，所以需要安装插件 [less-plugin-functions](https://github.com/seven-phases-max/less-plugin-functions) ，然后就简单了：
+上文提供了 `sass` 和 `postcss` 的px2rem转换方法，我这里给出 `less` 的px2rem。因为 `less` 不支持函数，所以需要安装插件 [less-plugin-functions](https://github.com/seven-phases-max/less-plugin-functions) ，然后就简单了：
 
 ```css
-    .function{
-        .px2rem(@px,@base:72px){
+    .function {
+        .px2rem(@px,@base:72px) {
             return: @px / @base * 1rem;
         }    
     }
@@ -103,13 +103,13 @@ tags: 移动Web
 
 ## 设置rem
 
-设置rem的意义在于得到一个与屏幕宽度相关的单位，本来vw是最合适的，但是因为兼容性的问题，只能使用rem来做。这样，让 **不同设备的rem显示一样的长度** 。
+设置 `rem` 的意义在于得到一个与屏幕宽度相关的单位，本来 `vw` 是最合适的，但是因为兼容性的问题，只能使用 `rem` 来做。这样，让不同设备的`rem` 显示一样的长度 。
 
-> vw是CSS3引入的单位，1vw = 1%窗口宽度
+> `vw` 是 `CSS3` 引入的单位，`1vw = 1%` 窗口宽度
 
 ## 设置 viewport 缩放 和 data-dpr
 
-这两个设置其实是干的一件事，就是适配高密度屏幕手机的px单位。
+这两个设置其实是干的一件事，就是适配高密度屏幕手机的 `px` 单位。
 
 ```css
     .a{
@@ -123,13 +123,13 @@ tags: 移动Web
     }
 ```
 
-而缩放是动态的，这样，**不同设备下的px显示一样的长度** 。
+而缩放是动态的，这样，不同设备下的px显示一样的长度。
 
-之前说过CSS像素和物理像素与缩放、dpr都有关系，这里说明：
+之前说过 `CSS` 像素和物理像素与缩放、`dpr` 都有关系，这里说明：
 
 > 在普通手机上，.a字体设置为12px；
 
-> 在dpr是2的手机上，[data-dpr="2"] .a字体为24px，又因为页面缩放50%，字体为还是12px
+> 在 `dpr` 是2的手机上，[data-dpr="2"] .a字体为24px，又因为页面缩放50%，字体为还是12px
 
 ---
 
