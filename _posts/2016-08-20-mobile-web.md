@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "(转)移动端适配方案"
+title: "（转）移动端适配方案"
 categories: CSS
 tags: 移动Web 
 ---
