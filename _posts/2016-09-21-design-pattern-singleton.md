@@ -71,7 +71,59 @@ tags: JS高级特性 设计模式
 
 ## 应用举例
 
-例如，我们要写这样一个弹框组件：
+例如，我们要写这样一个弹窗组件：
 
+点击按钮弹窗，再次点击按钮不再弹窗，弹窗相当于一个单例，大于一次的时候仍然是第一次的实例。
+
+想了一下，可以这样实现：
+
+```js
+   var createBox = (function() {
+    var box;
+    return {
+        getBox: function() {
+            return box || (box = document.body.appendChild(document.createElement('div')));
+        }
+    };
+   })(); 
+```
+
+以一个闭包的形式包住，最后返回这个 `box` 。
+
+然后，如果想封装一些属性的话，可以这样实现：
+
+```js
+    var createBox = (function() {
+        var box,
+            initBox = function() {
+                //私有属性和方法
+                //........
+
+                //共有属性和方法
+                return box || (box = document.body.appendChild(document.createElement('div')));
+            };
+        return {
+            getBox: function() {
+                return initBox;
+            }
+        };
+    })();
+```
+
+再次对代码进行了封装，可用性更强。
+
+（Singleton）单例模式算是设计模式中比较容易理解的模式了，用途也比较宽泛。
+
+下面是我觉得写得不错的参考资料：
+
+# 参考资料
+
+[学用JavaScript设计模式](http://www.oschina.net/translate/learning-javascript-design-patterns)
+
+[JavaScript设计模式深入分析](http://developer.51cto.com/art/201109/288650.htm)
+
+[常用的设计模式](http://blog.jobbole.com/29454/)
+
+[前端攻略--JavaScript设计模式](http://www.cnblogs.com/Darren_code/archive/2011/08/31/JavascripDesignPatterns.html)
 
 
