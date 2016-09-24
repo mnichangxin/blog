@@ -150,6 +150,7 @@
 }
 
 .clickable-header {
+    margin-bottom: 20px;
     cursor:pointer;
 }
 .clickable-header:hover:after {
