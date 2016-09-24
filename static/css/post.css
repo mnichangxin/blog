@@ -5,23 +5,23 @@
 }
 .post table thead{
     // border-bottom: 1px dashed #777;
-    border-left: 1px solid #dedede;
-    border-bottom: 1px solid #dedede;
+    border-left: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
     // background-color: #aaa;
     // color:#fff;
 }
 .post table th{
     padding: 2px 10px;
-    border-right: 1px solid #dedede;
+    border-right: 1px solid #DDDDDD;
 }
-// .post table tr:nth-child(2n){
-//     background-color: #E5EAED;
-// }
+.post table tr:nth-child(2n){
+    background-color: #E5EAED;
+}
 .post table td{
     padding: 2px 10px;
-    border-left: 1px solid #dedede;
-    border-right: 1px solid #dedede;
-    border-bottom: 1px solid #dedede;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
     vertical-align: top;
 }
 
