@@ -1,23 +1,23 @@
-.post table{
-    border-top:2px solid #777;
-    border-bottom: 2px solid #777;
-    margin: 8px 0;
-}
-.post table thead{
-    border-bottom: 1px dashed #777;
-    background-color: #aaa;
-    color:#fff;
-}
-.post table th{
-    padding: 2px 10px;
-}
-.post table tr:nth-child(2n){
-    background-color: #E5EAED;
-}
-.post table td{
-    padding: 2px 10px;
-    vertical-align: top;
-}
+// .post table{
+//     border-top:2px solid #777;
+//     border-bottom: 2px solid #777;
+//     margin: 8px 0;
+// }
+// .post table thead{
+//     border-bottom: 1px dashed #777;
+//     background-color: #aaa;
+//     color:#fff;
+// }
+// .post table th{
+//     padding: 2px 10px;
+// }
+// .post table tr:nth-child(2n){
+//     background-color: #E5EAED;
+// }
+// .post table td{
+//     padding: 2px 10px;
+//     vertical-align: top;
+// }
 
 /* post
  * post articles area
