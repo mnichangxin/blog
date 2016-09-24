@@ -147,6 +147,10 @@ a:active {text-decoration: none}	/* 选定的链接 */
     padding:10px 30px;
 }
 
+article {
+    line-height: 30px;
+}
+
 @media screen and (max-width: 767px) {
     .sheet{
         padding-left: 10px;
