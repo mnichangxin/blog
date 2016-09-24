@@ -1,24 +1,25 @@
 .post table{
-    border-top:2px solid #777;
-    border-bottom: 2px solid #777;
+    border-top: 1px solid #dedede;
+    // border-bottom: 2px solid #777;
     margin: 8px 0;
 }
 .post table thead{
     // border-bottom: 1px dashed #777;
-    border-left: 1px solid #777;
-    border-right: 1px solid #777;
-    border-bottom: 1px solid #777;
+    border-left: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
     // background-color: #aaa;
     // color:#fff;
 }
 .post table th{
     padding: 2px 10px;
+    border-right: 1px solid #dedede;
 }
 // .post table tr:nth-child(2n){
 //     background-color: #E5EAED;
 // }
 .post table td{
     padding: 2px 10px;
+    border-bottom: 1px solid #dedede;
     vertical-align: top;
 }
 
