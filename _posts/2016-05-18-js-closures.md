@@ -5,7 +5,12 @@ categories: JavaScript
 tags: JS高级特性 闭包 ES5
 ---
 
+* content
+{:toc}
+
 说起 **闭包** 这个词，其实没有一个非常明确的概念。
+
+
 
 官方的解释：
 

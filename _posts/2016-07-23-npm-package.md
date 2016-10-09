@@ -5,6 +5,9 @@ categories: Node.js
 tags: npm package json
 ---
 
+* content
+{:toc}
+
 ## 描述性字段
 
 * **name**
@@ -22,6 +25,8 @@ tags: npm package json
 * **homepage**
 
 * **bugs**
+
+
 
 ## script字段
 

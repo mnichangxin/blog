@@ -5,6 +5,11 @@ categories: CSS
 tags: 布局
 ---
 
+* content
+{:toc}
+
+
+
 ## 前言
 话说双飞翼布局始于淘宝UED，就找来资料研究了一番，其实原理很简单。圣杯布局的来历是A list part上的一篇[文章](http://alistapart.com/article/holygrail)，另外双飞翼布局是对圣杯布局的一个改进吧。
 

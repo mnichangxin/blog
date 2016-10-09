@@ -5,6 +5,11 @@ category: GitHub
 tags: jekyll 博客
 ---
 
+* content
+{:toc}
+
+
+
 ## 前言
 经常写博客是一件满足的事，一直没有找到合适的博客平台，要么太臃肿，或者太简陋。之前我曾经在新浪云上搭建过一个[博客](http://mnichangxin.sinaapp.com),功能各方面做的太渣，暂时告一段落。最近看到有人在github上做这件事，于是搜集了各方面的资料，费了几天的时间，弄出来一个简约的[博客](http://mnichangxin.github.io)。
 

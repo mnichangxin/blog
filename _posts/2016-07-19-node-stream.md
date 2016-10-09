@@ -5,6 +5,9 @@ categories: Node.js
 tags: Javascript IO流
 ---
 
+* content
+{:toc}
+
 > 以下摘自@阮一峰的文章，版权归原作者所有
 
 使用 `stream` 模块时，必须引入相应的包：
@@ -12,6 +15,8 @@ tags: Javascript IO流
 ```js
     var stream = require('stream');
 ```
+
+
 
 Stream接口分为三类：
 

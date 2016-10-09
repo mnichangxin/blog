@@ -5,7 +5,12 @@ categories: Node.js
 tags: Javascript IO流
 ---
 
+* content
+{:toc}
+
 这里介绍的只是我觉得 `Node.js` 里文件操作几个有用的 `API` ，详细内容得先从官方文档看起
+
+
 
 ## Buffer(数据块)
 

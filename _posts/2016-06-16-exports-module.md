@@ -5,9 +5,15 @@ categories: Node.js
 tags: Javascript CommonJs
 ---
 
+* content
+{:toc}
+
 `Node.js` 中的 `exports` 和 `module` 都向外界暴露了接口，关于两者的区别，[Zihua Li](http://zihua.li/2012/03/use-module-exports-or-exports-in-node/) 的 文章给出了让人信服的解释
 
 `Node.js` 的源码如下：
+
+
+
 
 ```js
     // file path: node/lib/module.js

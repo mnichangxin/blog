@@ -5,9 +5,14 @@ categories: Node.js
 tags: Javascript File
 ---
 
+* content
+{:toc}
+
 > `fs` 是 `filesystem` 的缩写，该模块提供本地文件的读写能力，基本上是 `POSIX` 文件操作命令的简单包装。但是，这个模块几乎对所有操作提供异步和同步两种操作方式，供开发者选择。
 
 用以下方法时，均需先引用 `fs` 模块：
+
+
 
 ```js
     var fs = require('fs');
