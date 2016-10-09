@@ -5,11 +5,17 @@ categories: MongoDB
 tags: MongoDB Sql
 ---
 
+* content
+{:toc}
+
 `Linux` 下配置没什么问题，就是 `Windows` 下有点坑：
 
 ## MongoDB的启动
 
 ![](http://7xr2ek.com1.z0.glb.clouddn.com/blog/image/mongo-comp.png)
+
+
+
 
 这里主要用到这两个模块：
 
