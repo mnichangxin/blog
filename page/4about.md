@@ -45,7 +45,7 @@ icon: heart
 
 * [Jerry](http://www.jerryzone.cn/)
 
-**如需加外链，请在下方评论区留言**
+如需加外链，请在下方评论区留言
 
 ## Comments
 
