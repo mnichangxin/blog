@@ -24,26 +24,28 @@ icon: heart
 
 ## 联系我
 
-* [Homepage:](http://mnichangxin.com/)
-* [Weibo:](http://weibo.com/123happylife)
-* [Zhihu:](https://www.zhihu.com/people/mnichangxin)
+* [Homepage](http://mnichangxin.com/)
+* [Weibo](http://weibo.com/123happylife)
+* [Zhihu](https://www.zhihu.com/people/mnichangxin)
 * QQ: 768348335
 * WeChat: lichangxin678
 * Email: mnichangxin@163.com
 
 ## 友情链接
 
-[sevenskey](http://sevenskey.xyz)
+* [sevenskey](http://sevenskey.xyz)
 
-[vvwall](http://vvwall.com/)
+* [vvwall](http://vvwall.com/)
 
-[leifhome](http://blog.csdn.net/leiflyy)
+* [leifhome](http://blog.csdn.net/leiflyy)
 
-[isunday](http://isunday.top/links/)
+* [isunday](http://isunday.top/links/)
 
-[gaohaoyang](http://gaohaoyang.github.io)
+* [gaohaoyang](http://gaohaoyang.github.io)
 
-[Jerry](http://www.jerryzone.cn/)
+* [Jerry](http://www.jerryzone.cn/)
+
+**如需加外链，请在下方评论区留言**
 
 ## Comments
 
