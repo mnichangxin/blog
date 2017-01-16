@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hadoop单机和伪分布式安装记录s"
+title: "Hadoop单机和伪分布式安装记录"
 categories: Hadoop
 tags: 大数据 Hadoop
 ---
@@ -127,7 +127,7 @@ tags: 大数据 Hadoop
 
 说明此时 `Hadoop` 已经可以用了，这样单机模式无需配置就能用了。但是单机模式只能用来测试，想要真正模拟一个集群，我们至少需要伪分布模式
 
-## 伪分布模式安装
+# 伪分布模式安装
 
 这里需要修改两个文件，位于 `/usr/local/hadoop/etc/hadop` 中，一个是核心配置文件 `core-site.xml` ，一个是 `hdfs` 的配置文件 `hdfs-site.xml`
 
