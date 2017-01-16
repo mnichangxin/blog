@@ -45,7 +45,7 @@ tags: 大数据 Hadoop
     $ sudo adduser hadoop sudo
 ```
 
-## 安装SSH，配置无密码登录S SH
+## 安装SSH，配置无密码登录SSH
 
 `Ubuntu` 自带 SSH Client ，这里只需安装 Server：
 
