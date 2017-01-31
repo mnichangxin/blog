@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "小范围排序（非递归堆排序）"
+title: "小范围排序（非递归堆排序实现）"
 categories: Algorithm
 tags: 算法 排序
 ---
@@ -22,7 +22,7 @@ tags: 算法 排序
     import java.util.Arrays;
 
     public class ScaleSort {    
-        //堆的调整，小顶堆
+        //堆的调整，小根堆
         public void heapAdjust(int[] A, int parent, int n) {
             int temp = A[parent]; //保存当前父结点
             int child = 2 * parent + 1; //获得左孩子
