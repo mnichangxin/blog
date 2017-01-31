@@ -54,7 +54,7 @@ tags: 算法 排序
             int[] heap = Arrays.copyOf(A, k);
             
             //对前k个元素建立初始堆
-            for (int i = k / 2; i >= 0; i--) {
+            for (int i = k / 2 - 1; i >= 0; i--) {
                 heapAdjust(heap, i, k);
             }
             
