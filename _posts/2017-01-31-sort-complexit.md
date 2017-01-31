@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "常见排序算法复杂度总结"
-categories: Hadoop
-tags: 大数据 Hadoop
+categories: Algorithm
+tags: 算法 排序
 ---
 
 * content
