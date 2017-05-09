@@ -54,15 +54,15 @@ JavaScript没有像其它后端语言一样可以直接定义一个变量可供�
 我的理解就是：让函数外部能调用函数内部变量的一个过程就是闭包。举个例子：
 
 ```javascript
-function f1(){
-    var name1 = "tsrot";
-    function f2(){
-        return name1;
+    function f1(){
+        var name1 = "tsrot";
+        function f2(){
+            return name1;
+        }
+        return f2;
     }
-    return f2;
-}
-var fun = f1();    //此时就访问到了name1的值
-console.log(fun()) //tsrot
+    var fun = f1();    //此时就访问到了name1的值
+    console.log(fun()) //tsrot
 ```
 
 
@@ -118,24 +118,24 @@ console.log(fun()) //tsrot
 #### 3、对象赋值调用写法（常用写法）
 
 ```javascript
-var Circle = new Object();  
-Circle.PI = 3.14159;  
-Circle.area = function(r) {  
-       return this.PI * r * r;  
-};
-consol.log(Circle.area(1.0));
+    var Circle = new Object();  
+    Circle.PI = 3.14159;  
+    Circle.area = function(r) {  
+           return this.PI * r * r;  
+    };
+    consol.log(Circle.area(1.0));
 ```
 
 #### 4、声明对象调用写法（比较好的一种写法）
 
 ```javascript
-var Circle={  
-    PI : 3.14159,  
-    area : function(r){  
-             return this.PI * r * r;  
-        }  
-};  
-console.log(Circle.area(1.0))
+    var Circle={  
+        PI : 3.14159,  
+        area : function(r){  
+                 return this.PI * r * r;  
+            }  
+    };  
+    console.log(Circle.area(1.0))
 ```
 
 #### 5、Function对象调用写法
