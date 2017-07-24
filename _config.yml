@@ -8,20 +8,18 @@
 # Site settings
 title: Blog
 brief-intro: A Paranoid Guy
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://mnichangxin.github.io/blog" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
 # other links
-twitter_username: mnichangxin
-facebook_username: 
+twitter_username: mnichangxin 
 github_username:  mnichangxin
 email: mnichangxin@163.com
 weibo_username: 123happylife
 zhihu_username: mnichangxin
 linkedIn_username: 昶昕-李-2bb839106
-dribbble_username:
 
 description_footer: 本站记录我技术学习的沿途风景！
 
