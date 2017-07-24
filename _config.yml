@@ -8,7 +8,7 @@
 # Site settings
 title: Blog
 brief-intro: A Paranoid Guy
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mnichangxin.github.io/blog" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
