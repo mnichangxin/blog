@@ -5,6 +5,9 @@ categories: React
 tags: React
 ---
 
+
+
+
 # 装配
 
 1. 实例化 `constructor()`
@@ -34,10 +37,10 @@ tags: React
 5. `componentDidUpdate()`
 
 # 卸载
-
+``
 1. `componentWillUnmount()`
 
 # 组件生命周期示意图
 
-[]!(http://7xr2ek.com1.z0.glb.clouddn.com/blog/image/react-life-cycle.png)
+![](http://7xr2ek.com1.z0.glb.clouddn.com/blog/image/react-life-cycle.png)
 
