@@ -26,16 +26,16 @@ tags: 版本库
 
 创建对应账户的公钥和私钥即可
 
-2. 将私钥添加到 ssh-agent 中：
+2. 将私钥添加到 `ssh-agent` 中：
 
-```ssh
+```sh
     ssh-add ~/.ssh/id_rsa_1
     ssh-add ~/.ssh/id_rsa_2
 ```
 
-3. 在 ～/.ssh 下创建 `config` 文件，git ssh 会自动读取：
+3. 在 `～/.ssh` 下创建 `config` 文件，`git ssh` 会自动读取：
 
-```ssh
+```sh
     # gitlab
     Host gitlab.company.com
     HostName gitlab.company.com
@@ -49,11 +49,11 @@ tags: 版本库
     IdentityFile ~/.ssh/id_rsa_2
 ```
 
-Host 和 HostName 一般是服务器域名，IdentityFile 指私钥文件
+`Host` 和 `HostName` 一般是服务器域名，`IdentityFile` 指私钥文件
 
 4. 测试连接：
 
-```ssh
+```sh
     ssh -T gitlab.company.com
     ssh -T git@github.com
 ```
